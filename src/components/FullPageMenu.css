@@ -1,0 +1,40 @@
+.full-page-menu-links-container a {
+    color: #ffffff !important;
+    font-size: 1.25rem;
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+.full-page-menu-links-container a:hover {
+    border-bottom: 1px solid #4bffa5 !important;
+    color: #4bffa5 !important;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.full-page-menu-links-container .active {
+    border-bottom: 1px solid #4bffa5 !important;
+    color: #4bffa5 !important;
+    font-weight: 400;
+}
+
+.close-icon {
+    top: 0;
+    right: 0;
+    fill: #ffffff;
+}
+
+.full-page-menu {
+    background-color: #1b1b1e;
+    position: absolute;
+    z-index: 10;
+}
+
+.full-page-menu-links-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}

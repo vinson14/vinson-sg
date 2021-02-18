@@ -1,0 +1,21 @@
+.layout-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../static/img/home-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.layout-header {
+    background-color: transparent;
+    color: white;
+    flex-grow: 0;
+}
+
+.layout-main {
+    color: white;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}

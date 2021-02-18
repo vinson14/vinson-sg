@@ -1,0 +1,28 @@
+.header-link:hover {
+    text-decoration: none;
+    font-weight: 400;
+    color: #4bffa5;
+}
+
+.header-link.active {
+    font-weight: 400;
+    border-bottom: 1px solid #4bffa5 !important;
+    color: #4bffa5;
+}
+
+.header-link {
+    color: #ffffff;
+}
+
+.menu-icon {
+    fill: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.vinson-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

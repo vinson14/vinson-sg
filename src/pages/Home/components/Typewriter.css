@@ -1,0 +1,8 @@
+.typewriter-line {
+    height: 30px;
+    font-family: "Courier Prime", monospace;
+}
+
+.hide {
+    opacity: 0;
+}
