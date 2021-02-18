@@ -42,7 +42,12 @@ const Flipcard = ({ exp, img }) => {
         <div className="col-12 col-lg-6 my-3 flipcard-container text-center">
             <div
                 className={`flipcard-inner-container ${flipped && "flipped"}`}
-                style={{ backgroundImage: `url(${img})` }}
+                style={{
+                    backgroundImage: `url(${img})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundAttachment: "fixed",
+                }}
             >
                 <div className="flipcard-front">
                     <h5 className="pri-font-bold">{exp.role}</h5>
