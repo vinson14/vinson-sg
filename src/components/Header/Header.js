@@ -1,49 +1,35 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import { ReactComponent as MenuIcon } from "../static/img/menu.svg";
+import { ReactComponent as MenuIcon } from "../../static/img/menu.svg";
 import FullPageMenu from "./FullPageMenu";
 import "./Header.css";
 import HeaderLinks from "./HeaderLinks";
 import VinsonLogo from "./VinsonLogo";
+import data from "../../static/data/data.json";
 
 const Header = () => {
     const [showFullPageMenu, setShowFullPageMenu] = useState(false);
 
-    const links = [
-        {
-            to: "/",
-            text: "Home",
-        },
-        {
-            to: "/about",
-            text: "About Me",
-        },
-        {
-            to: "/experience",
-            text: "My Experience",
-        },
-        {
-            to: "/contact",
-            text: "Contact Me",
-        },
-    ];
+    const toggleFullPageMenu = () => {
+        console.log("this ran");
+        setShowFullPageMenu(!showFullPageMenu);
+    };
 
     return (
         <div className="row">
             <div className="col d-flex justify-content-end">
                 <VinsonLogo />
-                <HeaderLinks links={links} />
+                <HeaderLinks links={data.links} />
                 <MenuIcon
                     height={20}
                     width={20}
                     className="d-md-none menu-icon"
-                    onClick={() => setShowFullPageMenu(true)}
+                    onClick={toggleFullPageMenu}
                 />
             </div>
             {showFullPageMenu && (
                 <FullPageMenu
-                    setShowFullPageMenu={setShowFullPageMenu}
-                    links={links}
+                    toggleFullPageMenu={toggleFullPageMenu}
+                    links={data.links}
                 />
             )}
         </div>

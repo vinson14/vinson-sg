@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import vinsonIcon from "../static/img/vinsonong.png";
+import vinsonIcon from "../../static/img/vinsonong.png";
 
 const VinsonLogo = () => {
     return (

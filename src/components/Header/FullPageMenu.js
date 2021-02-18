@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import CloseIcon from "./CloseIcon";
 import "./FullPageMenu.css";
 
-const FullPageMenu = ({ setShowFullPageMenu, links }) => {
+const FullPageMenu = ({ toggleFullPageMenu, links }) => {
     return (
         <Slide
             className="full-page-menu"
@@ -12,18 +12,23 @@ const FullPageMenu = ({ setShowFullPageMenu, links }) => {
             duration={500}
         >
             <div className="full-page-menu-links-container">
-                <CloseIcon setShowFullPageMenu={setShowFullPageMenu} />
+                <CloseIcon toggleFullPageMenu={toggleFullPageMenu} />
                 {links.map((link) => (
-                    <CustomizedLink exact to={link.to} text={link.text} />
+                    <CustomizedLink
+                        to={link.to}
+                        text={link.text}
+                        key={link.text}
+                        onClick={toggleFullPageMenu}
+                    />
                 ))}
             </div>
         </Slide>
     );
 };
 
-const CustomizedLink = ({ to, text }) => {
+const CustomizedLink = ({ to, text, onClick }) => {
     return (
-        <NavLink className="pri-font-light" to={to}>
+        <NavLink className="pri-font-light" exact to={to} onClick={onClick}>
             {text}
         </NavLink>
     );

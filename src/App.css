@@ -3,24 +3,35 @@
 
 .pri-font {
     font-family: "Poppins", sans-serif !important;
-    line-height: 1.4;
-    letter-spacing: 2px;
+    color: #ffffff !important;
+    line-height: 1.4 !important;
+    letter-spacing: 2px !important;
 }
 
 .pri-font-light {
+    color: #ffffff !important;
     font-family: "Poppins", sans-serif !important;
-    line-height: 1.4;
-    letter-spacing: 2px;
-    font-weight: 200;
+    line-height: 1.4 !important;
+    letter-spacing: 2px !important;
+    font-weight: 200 !important;
 }
 
 .pri-font-bold {
+    color: #ffffff !important;
     font-family: "Poppins", sans-serif !important;
-    line-height: 1.4;
-    letter-spacing: 2px;
-    font-weight: 700;
+    line-height: 1.4 !important;
+    letter-spacing: 2px !important;
+    font-weight: 700 !important;
 }
 
 .green-font {
     color: #4bffa5 !important;
+}
+
+.gold-font {
+    color: #e0a458 !important;
+}
+
+.translucent-bg {
+    background-color: rgba(50, 50, 50, 0.7) !important;
 }

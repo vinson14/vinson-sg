@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import Header from "../../../components/Header";
+import { useState } from "react";
 import TypewriterLine from "./TypewriterLine";
 import "./Typewriter.css";
 

@@ -1,0 +1,129 @@
+{
+    "profile": "I am a full stack developer working with Panasonic to develop web applications that employ machine learning for usage internally within Panasonic. <br /> <br />Despite majoring in Chemical Engineering in NUS for my undergraduate degree, I rapidly advanced my knowledge and skills in web development in the year of 2020 as I have always had a passion for coding. Within 6 months of development, I was hired as a full stack developer with Panasonic.<br /><br />In my current role, my main role is to work with machine learning/AI engineers to create web applications which are accessible to internal users.<br /> <br /> Concurrently , I am also a financial consultant of 5 years with AIA Singapore. <br /> <br /> My responsibilities in this role mainly comprises of providing sound financial advice to clients and assisting them to purchase optimal insurance and investment products which aligns with their life plans.",
+    "qualifications": [
+        {
+            "name": "Bachelors of Engineering<br />(Chemical Engineering)<br />with Honours (Distinction)",
+            "institution": "National University of Singapore"
+        },
+        {
+            "name": "M5<br />Rules & Regulations<br />for Financial Advisory",
+            "institution": "Singapore College of Insurance"
+        },
+        {
+            "name": "M9 & M9A<br /> Life Insurance<br />and Investment-Linked Policies",
+            "institution": "Singapore College of Insurance"
+        },
+        {
+            "name": "Chartered Financial Consultant<br />Singapore<br />Module 01",
+            "institution": "Singapore College of Insurance"
+        },
+        {
+            "name": "Certificate in<br />General Insurance<br />(CGI)",
+            "institution": "Singapore College of Insurance"
+        },
+        {
+            "name": "CS50's<br />Introduction to<br />Computer Science",
+            "institution": "Cambridge, Massachusetts"
+        },
+        {
+            "name": "Financial Technology<br />Programme 2020",
+            "institution": "National University of Singapore"
+        }
+    ],
+    "links": [
+        {
+            "to": "/",
+            "text": "Home"
+        },
+        {
+            "to": "/about",
+            "text": "About Me"
+        },
+        {
+            "to": "/experience",
+            "text": "My Experience"
+        },
+        {
+            "to": "/contact",
+            "text": "Contact Me"
+        }
+    ],
+    "skills": [
+        {
+            "title": "ReactJS",
+            "rating": 80
+        },
+        {
+            "title": "Django",
+            "rating": 80
+        },
+        {
+            "title": "Flask",
+            "rating": 75
+        },
+        {
+            "title": "ExpressJS",
+            "rating": 60
+        },
+        {
+            "title": "SQL",
+            "rating": 70
+        },
+        {
+            "title": "Mongoose",
+            "rating": 60
+        },
+        {
+            "title": "C",
+            "rating": 70
+        },
+        {
+            "title": "Lightroom",
+            "rating": 60
+        }
+    ],
+    "experiences": {
+        "financialConsultant": {
+            "role": "Financial Consultant",
+            "institution": "AIA Singapore",
+            "period": "Aug 2015 - Present",
+            "details": "Rising Star Award 2015<br />Million Dollar Club 2019 (Gold)<br /><br />Designed the personal financial portfolio of over 150 clients<br />Generated over $1mil in revenue",
+            "img": "financialconsultant.jpg"
+        },
+        "fullStackDeveloper": {
+            "role": "Fullstack Developer",
+            "institution": "Panasonic",
+            "period": "Dec 2020 - Present",
+            "details": "Play a vital role in developing computer vision web apps<br /><br />Worked with machine learning engineers to bring the app from backend to frontend<br /><br />Garnered experience in ReactJS, Django, Python and SQL ",
+            "img": "fullStackDeveloper.jpg"
+        },
+        "infoTechIntern": {
+            "role": "Info Tech Intern",
+            "institution": "ExxonMobil Singapore EMIT",
+            "period": "Jan 2017 - Jun 2017",
+            "details": "Self taught in AngularJS/ HTML / CSS / JavaScript<br /><br />Developed and deployed an internal web app for the company within 1.5 months<br /><br />Took charge of trainings and marketing initiatives to promote adoptation of new technologies within the company",
+            "img": "platooncommander.jpg"
+        },
+        "platoonCommander": {
+            "role": "Platoon Commander",
+            "institution": "Alpha Company, 10C4i Battalion",
+            "period": "Jan 2013 - Nov 2013",
+            "details": "Underwent rigorous training to be commissioned as a platoon commander for wartime and peacetime missions<br /><br />Led a team of 20 soldiers to support security forces in various high-key events such as the IISS Shangri-la Dialogue 2013 and National Day Parade 2013",
+            "img": "platooncommander.jpg"
+        }
+    },
+    "contactInfo": [
+        {
+            "title": "Mobile No.",
+            "info": "+65 9431 8747"
+        },
+        {
+            "title": "Email",
+            "info": "vinson1493@gmail.com"
+        },
+        {
+            "title": "LinkedIn",
+            "info": "www.linkedin.com/in/vinson-ong"
+        }
+    ]
+}
