@@ -15,6 +15,17 @@
     color: #ffffff;
 }
 
+.header-container {
+    min-height: 85px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-container.active {
+    background-color: #1b1b1e;
+}
+
 .menu-icon {
     fill: #ffffff;
     position: absolute;

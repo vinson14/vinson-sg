@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import "./Layout.css";
 
@@ -11,6 +12,11 @@ const Layout = ({ children }) => {
             </div>
             <div className="row layout-main">
                 <div className="col-12">{children}</div>
+            </div>
+            <div className="row layout-footer">
+                <div className="col-12">
+                    <Footer />
+                </div>
             </div>
         </div>
     );
