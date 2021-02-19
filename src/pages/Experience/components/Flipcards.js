@@ -39,34 +39,40 @@ const Flipcard = ({ exp, img }) => {
     };
 
     return (
-        <div
-            className="col-12 col-lg-6 my-3 p-0 flipcard-container text-center"
-            style={{
-                backgroundImage: `url(${img})`,
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-            }}
-        >
-            <div className={`flipcard-inner-container ${flipped && "flipped"}`}>
-                <div className="flipcard-front">
-                    <h5 className="pri-font-bold">{exp.role}</h5>
-                    <h5 className="pri-font-light">{exp.institution}</h5>
-                    <h5 className="pri-font">{exp.period}</h5>
-                    <button
-                        className="btn btn-outline-light pri-font-light bg-transparent my-3"
-                        onClick={flipcard}
-                    >
-                        Find out more
-                    </button>
-                </div>
-                <div className="flipcard-back">
-                    <p className="pri-font">{parse(exp.details)}</p>
-                    <button
-                        className="btn btn-outline-light pri-font-light bg-transparent my-3"
-                        onClick={flipcard}
-                    >
-                        See Less
-                    </button>
+        <div className="col-12 col-lg-6 my-3 flipcard-container text-center">
+            <div
+                className="h-100 w-100"
+                style={{
+                    backgroundImage: `url(${img})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                }}
+            >
+                <div
+                    className={`flipcard-inner-container ${
+                        flipped && "flipped"
+                    }`}
+                >
+                    <div className="flipcard-front">
+                        <h5 className="pri-font-bold">{exp.role}</h5>
+                        <h5 className="pri-font-light">{exp.institution}</h5>
+                        <h5 className="pri-font">{exp.period}</h5>
+                        <button
+                            className="btn btn-outline-light pri-font-light bg-transparent my-3"
+                            onClick={flipcard}
+                        >
+                            Find out more
+                        </button>
+                    </div>
+                    <div className="flipcard-back">
+                        <p className="pri-font">{parse(exp.details)}</p>
+                        <button
+                            className="btn btn-outline-light pri-font-light bg-transparent my-3"
+                            onClick={flipcard}
+                        >
+                            See Less
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
