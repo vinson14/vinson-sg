@@ -39,16 +39,15 @@ const Flipcard = ({ exp, img }) => {
     };
 
     return (
-        <div className="col-12 col-lg-6 my-3 flipcard-container text-center">
-            <div
-                className={`flipcard-inner-container ${flipped && "flipped"}`}
-                style={{
-                    backgroundImage: `url(${img})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "cover",
-                    backgroundAttachment: "fixed",
-                }}
-            >
+        <div
+            className="col-12 col-lg-6 my-3 p-0 flipcard-container text-center"
+            style={{
+                backgroundImage: `url(${img})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+            }}
+        >
+            <div className={`flipcard-inner-container ${flipped && "flipped"}`}>
                 <div className="flipcard-front">
                     <h5 className="pri-font-bold">{exp.role}</h5>
                     <h5 className="pri-font-light">{exp.institution}</h5>
