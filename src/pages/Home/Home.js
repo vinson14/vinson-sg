@@ -1,10 +1,13 @@
+import { Fade } from "react-awesome-reveal";
 import LandingPageContent from "./components/LandingPageContent";
 
 const Home = () => {
     return (
-        <div className="row justify-content-center">
-            <LandingPageContent />
-        </div>
+        <Fade>
+            <div className="row justify-content-center">
+                <LandingPageContent />
+            </div>
+        </Fade>
     );
 };
 

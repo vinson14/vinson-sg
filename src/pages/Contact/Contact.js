@@ -1,11 +1,14 @@
+import { Fade } from "react-awesome-reveal";
 import SectionContainer from "../../components/SectionContainer";
 import data from "../../static/data/data.json";
 
 const Contact = () => {
     return (
-        <div className="row justify-content-center">
-            <ContactInfo contactInfo={data.contactInfo} />
-        </div>
+        <Fade>
+            <div className="row justify-content-center">
+                <ContactInfo contactInfo={data.contactInfo} />
+            </div>
+        </Fade>
     );
 };
 
