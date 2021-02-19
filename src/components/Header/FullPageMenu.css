@@ -15,7 +15,7 @@
 .full-page-menu-links-container .active {
     border-bottom: 1px solid #4bffa5 !important;
     color: #4bffa5 !important;
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 
 .close-icon {
