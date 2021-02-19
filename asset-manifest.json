@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.984c4101.chunk.css",
-    "main.js": "/static/js/main.9ff9f0dc.chunk.js",
-    "main.js.map": "/static/js/main.9ff9f0dc.chunk.js.map",
+    "main.js": "/static/js/main.07540f63.chunk.js",
+    "main.js.map": "/static/js/main.07540f63.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b13d88a0.js",
     "runtime-main.js.map": "/static/js/runtime-main.b13d88a0.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
-    "static/js/2.54873bd1.chunk.js": "/static/js/2.54873bd1.chunk.js",
-    "static/js/2.54873bd1.chunk.js.map": "/static/js/2.54873bd1.chunk.js.map",
+    "static/js/2.4f3aaff5.chunk.js": "/static/js/2.4f3aaff5.chunk.js",
+    "static/js/2.4f3aaff5.chunk.js.map": "/static/js/2.4f3aaff5.chunk.js.map",
     "static/js/3.93a7ec97.chunk.js": "/static/js/3.93a7ec97.chunk.js",
     "static/js/3.93a7ec97.chunk.js.map": "/static/js/3.93a7ec97.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
     "static/css/main.984c4101.chunk.css.map": "/static/css/main.984c4101.chunk.css.map",
-    "static/js/2.54873bd1.chunk.js.LICENSE.txt": "/static/js/2.54873bd1.chunk.js.LICENSE.txt",
+    "static/js/2.4f3aaff5.chunk.js.LICENSE.txt": "/static/js/2.4f3aaff5.chunk.js.LICENSE.txt",
     "static/media/close.17a94979.svg": "/static/media/close.17a94979.svg",
     "static/media/financialConsultant.de081b04.jpg": "/static/media/financialConsultant.de081b04.jpg",
     "static/media/fullStackDeveloper.49a7ea35.jpg": "/static/media/fullStackDeveloper.49a7ea35.jpg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.b13d88a0.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.54873bd1.chunk.js",
+    "static/js/2.4f3aaff5.chunk.js",
     "static/css/main.984c4101.chunk.css",
-    "static/js/main.9ff9f0dc.chunk.js"
+    "static/js/main.07540f63.chunk.js"
   ]
 }
