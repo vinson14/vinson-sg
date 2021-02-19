@@ -6,6 +6,22 @@
             "institution": "National University of Singapore"
         },
         {
+            "name": "Financial Technology<br />Senior Developer<br />Level 3<br />",
+            "institution": "National University of Singapore"
+        },
+        {
+            "name": "Artificial Intelligence,<br />Blockchain<br />& Smart Contracts<br />",
+            "institution": "National University of Singapore"
+        },
+        {
+            "name": "DevOps<br />Build, Deploy<br />& Monitor<br />",
+            "institution": "National University of Singapore"
+        },
+        {
+            "name": "Design Thinking:<br />Creative and Strategic<br />Business Solutions<br />",
+            "institution": "National University of Singapore"
+        },
+        {
             "name": "M5<br />Rules & Regulations<br />for Financial Advisory",
             "institution": "Singapore College of Insurance"
         },
@@ -24,10 +40,6 @@
         {
             "name": "CS50's<br />Introduction to<br />Computer Science",
             "institution": "Cambridge, Massachusetts"
-        },
-        {
-            "name": "Financial Technology<br />Senior Developer<br />Level 3<br />",
-            "institution": "National University of Singapore"
         }
     ],
     "links": [
