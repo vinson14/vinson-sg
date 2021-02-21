@@ -11,7 +11,6 @@ const Header = () => {
     const [navbarBackground, setNavbarBackground] = useState(false);
 
     const toggleFullPageMenu = () => {
-        console.log("this ran");
         setShowFullPageMenu(!showFullPageMenu);
     };
 
