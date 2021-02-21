@@ -5,10 +5,12 @@ import "./App.css";
 import About from "./pages/About/About";
 import Experience from "./pages/Experience/Experience";
 import Contact from "./pages/Contact/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
     return (
         <Router>
+            <ScrollToTop />
             <Layout>
                 <Switch>
                     <Route path="/" exact>
