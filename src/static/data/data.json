@@ -74,6 +74,10 @@
             "rating": 80
         },
         {
+            "title": "AWS",
+            "rating": 50
+        },
+        {
             "title": "Flask",
             "rating": 75
         },
