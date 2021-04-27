@@ -15,6 +15,10 @@ const Flipcards = ({ experiences }) => {
                     img={fullStackDeveloperImg}
                 />
                 <Flipcard
+                    exp={experiences.hackathonRunnerUp}
+                    img={fullStackDeveloperImg}
+                />
+                <Flipcard
                     exp={experiences.financialConsultant}
                     img={financialconsultantImg}
                 />

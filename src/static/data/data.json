@@ -121,6 +121,13 @@
             "details": "Play a vital role in developing computer vision web apps<br /><br />Worked with machine learning engineers to bring the app from backend to frontend<br /><br />Garnered experience in ReactJS, Django, Python and SQL ",
             "img": "fullStackDeveloper.jpg"
         },
+        "hackathonRunnerUp": {
+            "role": "Team Algaetronics - Runner Up",
+            "institution": "Startup Weekend Singapore 2021",
+            "period": "Apr 2021",
+            "details": "A 54-hour hackathon with over 150 participants<br /><br />Formed a team of 3 and pitched an idea of cultivating and harvesting algae on Singapore rooftops<br /><br />Came in as 2nd place winners and given a chance to pitch to StartupX",
+            "img": "fullStackDeveloper.jpg"
+        },
         "infoTechIntern": {
             "role": "Info Tech Intern",
             "institution": "ExxonMobil Singapore EMIT",
